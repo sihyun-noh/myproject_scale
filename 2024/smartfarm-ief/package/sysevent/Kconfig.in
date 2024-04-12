@@ -1,0 +1,5 @@
+config SYSEVENT_PACKAGE
+  bool "Sysevent package"
+  default "y"
+  help
+    Enable Sysevent package that supports event messaging between tasks.

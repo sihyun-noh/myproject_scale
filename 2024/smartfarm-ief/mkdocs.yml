@@ -1,0 +1,35 @@
+site_name: SmartFarm IEF Documentation
+site_description: Description of the SmartFarm IEF documentation
+repo_url: https://example.com
+
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search
+
+nav:
+  - Introduction: 'index.md'
+  - Overview: 'overview.md'
+  - Features:
+    - Syscfg: 'syscfg.md'
+    - Sysevent: 'sysevent.md'
+    - EasySetup: 'easysetup.md'
+    - Shell Command: 'shell.md'
+    - OTA FW Update: 'ota.md'
+    - Manufacturing: 'manufacturing.md'
+    - Unit test: 'unittest.md'
+    - Monitor: 'monitor.md'
+    - MQTT: 'mqtt.md'
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

@@ -1,0 +1,5 @@
+config MQTTC_PACKAGE
+  bool "MQTT client package"
+  default "y"
+  help
+    Enable MQTT client package

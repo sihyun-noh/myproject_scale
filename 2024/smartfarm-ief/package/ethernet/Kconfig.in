@@ -1,0 +1,5 @@
+config ETHERNET_PACKAGE
+  bool "Ethernet package"
+  default "n"
+  help
+    Enable Ethernet module 

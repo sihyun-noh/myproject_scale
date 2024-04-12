@@ -1,0 +1,5 @@
+config SHELL_PACKAGE
+  bool "CommandLine package"
+  default "y"
+  help
+    CommandLine package to run utililty and test command

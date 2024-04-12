@@ -1,0 +1,5 @@
+config MODBUS_PACKAGE
+  bool "Modbus package"
+  default "n"
+  help
+    Enable Modbus module for RS485 Sensors 

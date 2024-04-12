@@ -1,0 +1,44 @@
+menu "PAL packages"
+
+  menu "GPIO package"
+    config GPIO_PACKAGE
+      bool "GPIO package"
+      default "y"
+      help
+        Enable GPIO module to control the devices
+  endmenu # GPIO package
+
+  menu "I2C package"
+    config I2C_PACKAGE
+      bool "I2C package"
+      default "y"
+      help
+        Enable I2C module to communicate the sensors
+  endmenu # I2C package
+
+  menu "ADC package"
+    config ADC_PACKAGE
+      bool "ADC package"
+      default "y"
+      help
+        Enable ADC module to get battery level of sensors
+  endmenu # ADC package
+
+  menu "DAC package"
+    config DAC_PACKAGE
+      bool "DAC package"
+      default "n"
+      help
+        Enable DAC module
+  endmenu # DAC package
+
+  menu "UART package"
+    config UART_PACKAGE
+      bool "UART package"
+      default "y"
+      help
+        Enable UART module to communicate the sensors
+  endmenu # UART package
+
+endmenu
+

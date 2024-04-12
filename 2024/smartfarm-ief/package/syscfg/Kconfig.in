@@ -1,0 +1,5 @@
+config SYSCFG_PACKAGE
+  bool "Syscfg package"
+  default "y"
+  help
+    Enable Syscfg package that set and get configuration

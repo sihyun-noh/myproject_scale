@@ -1,0 +1,5 @@
+config WIFILIB_PACKAGE
+  bool "WiFi library package"
+  default "y"
+  help
+    Enable WiFi library that supports AP and STA mode

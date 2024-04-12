@@ -1,0 +1,5 @@
+config TIMEZONE_PACKAGE
+  bool "Timezone package"
+  default "y"
+  help
+    Enable TimeZone package to support correct local time based on region

@@ -1,0 +1,5 @@
+config SYSLOG_PACKAGE
+  bool "Syslog package"
+  default "y"
+  help
+    Shows the log messages in console mode and add them to list.

@@ -1,0 +1,8 @@
+menu "Controller package"
+  config LED_PACKAGE
+    bool "LED package"
+    default "y"
+    help
+      LED module to set led status
+
+endmenu # Controller
