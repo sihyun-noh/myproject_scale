@@ -1,52 +1,20 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+2024/smartfarm-ief/build/
+2024/smartfarm-ief/product/**/build
+2024/smartfarm-ief/product/**/managed_components
+2024/smartfarm-ief/product/**/dependencies.lock
+2024/smartfarm-ief/.vscode/
+2024/smartfarm-ief/.DS_Store
+2024/smartfarm-ief/.cache
+2024/smartfarm-ief/tags
+2024/smartfarm-ief/sdkconfig.old
+2024/smartfarm-ief/compile_commands.json
+2024/smartfarm-ief/*.patch
+2024/smartfarm-ief/*.swp
+2024/smartfarm-ief/cscope.*
+2024/smartfarm-ief/.gitmessage.txt
+2024/smartfarm-ief/thirdparty/
+2024/smartfarm-ief/product/irrigation/manufacturing/csv
+2024/smartfarm-ief/product/irrigation/manufacturing/bin
+2024/smartfarm-ief/product/irrigation/manufacturing/irrigation_config_tmp.csv
+2024/smartfarm-ief/product/irrigation/manufacturing/irrigation_master_tmp.csv
+2024/smartfarm-ief/product/irrigation/manufacturing/irrigation_master_tmp_created.csv

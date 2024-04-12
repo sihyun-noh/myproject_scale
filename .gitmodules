@@ -1,0 +1,10 @@
+
+[submodule "2024/smartfarm-ief/opensource/esp_littlefs"]
+	path = 2024/smartfarm-ief/opensource/esp_littlefs
+	url = https://github.com/joltwallet/esp_littlefs.git
+[submodule "2024/smartfarm-ief/opensource/lvgl"]
+	path = 2024/smartfarm-ief/opensource/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "2024/smartfarm-ief/opensource/LovyanGFX"]
+	path = 2024/smartfarm-ief/opensource/LovyanGFX
+	url = https://github.com/lovyan03/LovyanGFX.git
